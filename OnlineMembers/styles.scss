@@ -1,0 +1,30 @@
+.online_members_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.default_profile_pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 9999px;
+}
+
+.online_status_wrapper {
+  margin: 0px 5px;
+}
+
+.online_members_container {
+  max-height: 230px;
+  overflow-y: auto;
+}
+
+.green_text {
+  color: #41c667;
+}
+
+.activities_container {
+  padding: 10px 10px;
+  // overflow-y: scroll;
+}
