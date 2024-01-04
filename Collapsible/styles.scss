@@ -1,0 +1,42 @@
+.Collapsible__contentInner {
+  padding: 20px 0px 10px 0px;
+}
+
+.Collapsible {
+  font-size: 16px;
+  padding: 20px 0px;
+}
+
+.collapsible-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.trigger_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.trigger_icon:hover {
+  transform: scale(1.1);
+}
+
+.collapsible-trigger.open {
+  transform: rotate(180deg);
+}
+
+.trigger_icon .fa-chevron-down.spin {
+  animation: spin 0.1s linear forwards;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
