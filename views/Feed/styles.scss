@@ -1,0 +1,24 @@
+.padding {
+  margin: 10px 50px;
+}
+
+.load_more_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.load_more_videos {
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  font-weight: 500;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.load_more_videos:hover {
+  color: white;
+  background-color: black;
+}

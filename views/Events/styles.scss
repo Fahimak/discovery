@@ -1,0 +1,300 @@
+.events_main_container {
+  padding: 20px;
+}
+
+.event_page_container {
+  padding: 20px;
+  position: relative;
+}
+
+.events_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 20px 0px;
+}
+
+.create_event_container {
+  padding: 20px;
+}
+
+.event_attendee_profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin-left: -22px;
+}
+
+.event_attendee_profile_list {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.event_attendee_wrapper {
+}
+
+.user_and_profile_table {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.event_back_btn_table {
+  padding: 20px 20px 0px 20px;
+}
+
+.event_attendee_profile_table {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+}
+
+.medium_btns {
+  padding: 5px 0px;
+}
+
+.event_details_wrapper {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event_copy_btn {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 150px;
+}
+
+.no_table_entries {
+  padding: 10px;
+  text-align: center;
+}
+
+.event_copy_btn_wrapper {
+  display: flex;
+  justify-content: right;
+  padding: 10px 20px 4px 0px;
+}
+
+.events_date_time_picker {
+  display: flex;
+  gap: 20px;
+}
+
+.nextBtn_event {
+  margin: 30px 0px 10px 0px;
+  // width: 40%;
+}
+
+.event_btn_next {
+  display: flex;
+  gap: 5px;
+}
+
+.nextBtn_events {
+  display: flex;
+  gap: 10px;
+}
+
+.event_location_view_wrapper {
+  font-weight: 600;
+  font-size: 14px;
+  color: #a5a5a5;
+}
+
+.home_event_banner {
+  border-radius: 10px 10px 0px 0px;
+  height: 250px;
+  width: 100%;
+  max-height: 10rem;
+  object-fit: cover;
+}
+
+.home_event_header {
+  display: flex;
+  position: relative;
+}
+
+.home_event_thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+.home_event_header {
+  border: 1px solid #e9e9e9;
+  box-shadow: 0 1px 5px rgb(0 74 116/15%);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.home_event_body {
+  border: 1px solid #e9e9e9;
+  box-shadow: 0 1px 5px rgb(0 74 116/15%);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.home_event_body_org_info {
+  border: 1px solid #e9e9e9;
+  box-shadow: 0 1px 5px rgb(0 74 116/15%);
+  border-radius: 10px;
+}
+
+.home_event_body_org_info_content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.event_info_header {
+  border-radius: 10px 10px 0px 0px;
+  background-color: $dark-green2;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: $bright-green;
+  // height: ;
+}
+
+.edit_event_details_icon {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.text-gray-light {
+  color: #7c7c7c;
+}
+
+.event_back_btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.event_deet_location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+// .ak_day_cell {
+//   border: 1px solid black;
+// }
+
+// .ak_day_cell:hover {
+//   background-color: rgba(227, 255, 185, 0.389);
+//   border: 2px solid $bright-green;
+//   cursor: pointer;
+// }
+
+.fc .fc-daygrid-body {
+  width: 100%;
+}
+
+.fc-day {
+  border: 1px solid black;
+}
+
+.fc-day:hover {
+  background-color: rgb(244, 255, 242);
+  border: 2px solid $bright-green;
+  cursor: pointer;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #e9e9e9;
+  cursor: pointer;
+}
+
+.day_header_class {
+  border: none;
+}
+
+.fc-scrollgrid-section-header,
+.fc-scrollgrid {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.now_indicator_class {
+  background-color: aliceblue;
+}
+
+.event_class_name {
+  // background-color: beige;
+  word-wrap: break-word;
+}
+
+.fc .fc-scrollgrid {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgb(0 74 116/15%);
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border: 1px solid #ececec;
+}
+
+.fc {
+  border-radius: 10px;
+}
+
+.fc-button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.fc .fc-button-primary {
+  background: #242424;
+  border: 1px solid #242424;
+  color: white;
+}
+.fc .fc-button-primary:hover {
+  background: #242424;
+  border: 1px solid #242424;
+  color: white;
+}
+
+.fc .fc-button {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  border-radius: 60px;
+}
+
+.fc-h-event .fc-event-main {
+  background: #242424;
+  border: 1px solid #242424;
+  color: $bright-green;
+}
+
+.fc-h-event {
+  background: #242424;
+  border: 1px solid #242424;
+  color: $bright-green;
+}
+
+.fc-daygrid-event-dot {
+  border-color: $bright-green;
+}
